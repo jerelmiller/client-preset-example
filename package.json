@@ -1,0 +1,23 @@
+{
+  "name": "client-preset-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "codegen": "graphql-codegen"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/client-preset": "^4.3.3",
+    "@graphql-typed-document-node/core": "^3.2.0",
+    "graphql": "^16.9.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.4"
+  }
+}
